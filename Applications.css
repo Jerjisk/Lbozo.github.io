@@ -96,14 +96,14 @@ transform: scale(1.1);
 
 .desc1
 {left:10%;
-	width: 60vh;
+	width: 30vw;
 position: absolute;
 top: 82vh;
 text-align: center;}
 
 .desc2
 {right:10%;
-	width: 60vh;
+	width: 30vw;
 position: absolute;
 top: 82vh;
 text-align: center;}
