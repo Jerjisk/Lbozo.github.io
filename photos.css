@@ -14,7 +14,7 @@ font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
 
 .navbar {position:fixed;
 	top: 0;
-width:100%;
+width:100vw;
 	z-index:3;
 }
 li {
@@ -54,16 +54,7 @@ z-index: 4;}
 
 
 .pics
-{position: relative;
-z-index: 2;
-margin-top: 50px;
-
-	margin-right: 20%;
-	margin-left: 20%;
-	height: 100%;
-	border: 5px ridge #00E3FF;
-	transition-duration: 0.4s;
-}
+{position: relative;z-index: 2;margin-top: 50px;margin-right: 14vw;margin-left: 14vw;height: 100vh;width: 70vw; border: 5px ridge #00E3FF;transition-duration: 0.4s;}
 
 .pics:hover
 {opacity: 25%;}
@@ -76,22 +67,22 @@ text-align: center;
 }
 
 #text1
-{top: 50%;
-right: 30%;
-left: 30%;
-width: 40%;}
+{top: 50vh;
+right: 30vw;
+left: 30vw;
+width: 40vw;}
 
 #text2
-{top: 160%;
-right: 30%;
-left: 30%;
-width: 40%;}
+{top: 160vh;
+right: 30vw;
+left: 30vw;
+width: 40vw;}
 
 #text3
-{top: 270%;
-right: 30%;
-left: 30%;
-width: 40%;}
+{top: 270vh;
+right: 30vw;
+left: 30vw;
+width: 40vw;}
 
 #hover
 {position: relative;
@@ -99,3 +90,4 @@ width: 40%;}
 padding: 0px;
 top: 50px;
 text-align: center}
+
